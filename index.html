@@ -669,8 +669,8 @@ function fbMessage(){
   const type = (document.getElementById("fbType")||{value:""}).value;
   const noteEl = document.getElementById("fbNote");
   const note = noteEl ? noteEl.value.trim() : "";
-  return "[PA Research Net — site feedback]\nFrom: "+editWho+"\nType: "+type+"\n\nMESSAGE:\n"+(note||"(empty)")+
-    "\n\n— sent from https://shuwenzsw.github.io/PA_research_net/";
+  return "[DGPA Research Net — site feedback]\nFrom: "+editWho+"\nType: "+type+"\n\nMESSAGE:\n"+(note||"(empty)")+
+    "\n\n— sent from " + location.origin + location.pathname;
 }
 function fbPreview(){ const el=document.getElementById("fbPreview"); if (el) el.textContent = fbMessage(); }
 
