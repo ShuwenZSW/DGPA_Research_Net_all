@@ -508,7 +508,9 @@
   "Weiwen YIN": {
    "themes": {
     "T41": 2,
-    "T46": 2
+    "T46": 2,
+    "T38": 1,
+    "T45": 1
    },
    "methods": {
     "M2": 2,
@@ -518,7 +520,7 @@
     "R5": 2,
     "R7": 1
    },
-   "interests": "International and comparative political economy; historical state-building in East Asia; causal inference and machine learning for policy evaluation",
+   "interests": "International and comparative political economy; international institutions; historical state-building and regional order in East Asia; causal inference and machine learning",
    "domain": "International & Comparative Political Economy",
    "rank": "",
    "sig": ""
